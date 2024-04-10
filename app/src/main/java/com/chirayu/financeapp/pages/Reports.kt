@@ -8,9 +8,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.chirayu.financeapp.components.ReportPage
-import com.chirayu.financeapp.models.Recurrence
+import com.chirayu.financeapp.domain.models.Recurrence
 import com.chirayu.financeapp.R
-import com.chirayu.financeapp.ui.theme.TopAppBarBackground
+import com.chirayu.financeapp.presentation.ui.theme.TopAppBarBackground
 import com.chirayu.financeapp.viewmodels.ReportsViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalPagerApi::class)

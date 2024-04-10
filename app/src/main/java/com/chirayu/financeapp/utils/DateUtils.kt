@@ -1,6 +1,6 @@
 package com.chirayu.financeapp.utils
 
-import com.chirayu.financeapp.models.Recurrence
+import com.chirayu.financeapp.domain.models.Recurrence
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.YearMonth

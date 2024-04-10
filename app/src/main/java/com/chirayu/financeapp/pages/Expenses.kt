@@ -15,11 +15,11 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.chirayu.financeapp.components.PickerTrigger
 import com.chirayu.financeapp.components.expensesList.ExpensesList
-import com.chirayu.financeapp.models.Recurrence
-import com.chirayu.financeapp.ui.theme.FinanceAppTheme
-import com.chirayu.financeapp.ui.theme.LabelSecondary
-import com.chirayu.financeapp.ui.theme.TopAppBarBackground
-import com.chirayu.financeapp.ui.theme.Typography
+import com.chirayu.financeapp.domain.models.Recurrence
+import com.chirayu.financeapp.presentation.ui.theme.FinanceAppTheme
+import com.chirayu.financeapp.presentation.ui.theme.LabelSecondary
+import com.chirayu.financeapp.presentation.ui.theme.TopAppBarBackground
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 import com.chirayu.financeapp.viewmodels.ExpensesViewModel
 import java.text.DecimalFormat
 

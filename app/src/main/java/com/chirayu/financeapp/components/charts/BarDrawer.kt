@@ -5,8 +5,8 @@ import androidx.compose.ui.graphics.Canvas
 import androidx.compose.ui.graphics.Paint
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import com.github.tehras.charts.bar.BarChartData
-import com.chirayu.financeapp.models.Recurrence
-import com.chirayu.financeapp.ui.theme.SystemGray04
+import com.chirayu.financeapp.domain.models.Recurrence
+import com.chirayu.financeapp.presentation.ui.theme.SystemGray04
 
 class BarDrawer constructor(recurrence: Recurrence) :
   com.github.tehras.charts.bar.renderer.bar.BarDrawer {

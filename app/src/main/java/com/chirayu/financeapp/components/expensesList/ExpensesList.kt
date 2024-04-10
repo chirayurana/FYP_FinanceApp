@@ -10,9 +10,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.chirayu.financeapp.components.ExpensesDayGroup
 import com.chirayu.financeapp.mock.mockExpenses
-import com.chirayu.financeapp.models.Expense
-import com.chirayu.financeapp.models.groupedByDay
-import com.chirayu.financeapp.ui.theme.FinanceAppTheme
+import com.chirayu.financeapp.domain.models.Expense
+import com.chirayu.financeapp.domain.models.groupedByDay
+import com.chirayu.financeapp.presentation.ui.theme.FinanceAppTheme
 
 @Composable
 fun ExpensesList(expenses: List<Expense>, modifier: Modifier = Modifier) {

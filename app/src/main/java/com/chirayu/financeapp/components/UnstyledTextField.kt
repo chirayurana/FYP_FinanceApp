@@ -14,8 +14,8 @@ import androidx.compose.ui.graphics.*
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
-import com.chirayu.financeapp.ui.theme.Primary
-import com.chirayu.financeapp.ui.theme.TextPrimary
+import com.chirayu.financeapp.presentation.ui.theme.Primary
+import com.chirayu.financeapp.presentation.ui.theme.TextPrimary
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

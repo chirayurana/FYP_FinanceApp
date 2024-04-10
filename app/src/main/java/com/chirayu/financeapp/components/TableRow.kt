@@ -9,9 +9,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.chirayu.financeapp.R
-import com.chirayu.financeapp.ui.theme.Destructive
-import com.chirayu.financeapp.ui.theme.TextPrimary
-import com.chirayu.financeapp.ui.theme.Typography
+import com.chirayu.financeapp.presentation.ui.theme.Destructive
+import com.chirayu.financeapp.presentation.ui.theme.TextPrimary
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 
 @Composable
 fun TableRow(

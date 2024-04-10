@@ -5,8 +5,8 @@ import androidx.compose.ui.graphics.Canvas
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.nativeCanvas
 import com.github.tehras.charts.piechart.utils.toLegacyInt
-import com.chirayu.financeapp.models.Recurrence
-import com.chirayu.financeapp.ui.theme.LabelSecondary
+import com.chirayu.financeapp.domain.models.Recurrence
+import com.chirayu.financeapp.presentation.ui.theme.LabelSecondary
 
 class LabelDrawer(val recurrence: Recurrence, private val lastDay: Int? = -1) :
   com.github.tehras.charts.bar.renderer.label.LabelDrawer {

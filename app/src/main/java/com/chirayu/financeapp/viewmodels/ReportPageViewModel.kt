@@ -3,8 +3,8 @@ package com.chirayu.financeapp.viewmodels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.chirayu.financeapp.db
-import com.chirayu.financeapp.models.Expense
-import com.chirayu.financeapp.models.Recurrence
+import com.chirayu.financeapp.domain.models.Expense
+import com.chirayu.financeapp.domain.models.Recurrence
 import com.chirayu.financeapp.utils.calculateDateRange
 import io.realm.kotlin.ext.query
 import kotlinx.coroutines.Dispatchers
@@ -17,11 +17,11 @@ import java.time.LocalDateTime
 import java.time.LocalTime
 
 data class State(
-  val expenses: List<Expense> = listOf(),
-  val dateStart: LocalDateTime = LocalDateTime.now(),
-  val dateEnd: LocalDateTime = LocalDateTime.now(),
-  val avgPerDay: Double = 0.0,
-  val totalInRange: Double = 0.0
+    val expenses: List<Expense> = listOf(),
+    val dateStart: LocalDateTime = LocalDateTime.now(),
+    val dateEnd: LocalDateTime = LocalDateTime.now(),
+    val avgPerDay: Double = 0.0,
+    val totalInRange: Double = 0.0
 )
 
 class ReportPageViewModel(private val page: Int, val recurrence: Recurrence) :

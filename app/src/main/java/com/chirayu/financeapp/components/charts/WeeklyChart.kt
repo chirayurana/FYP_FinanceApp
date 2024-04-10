@@ -11,10 +11,10 @@ import com.github.tehras.charts.bar.BarChart
 import com.github.tehras.charts.bar.BarChartData
 import com.github.tehras.charts.bar.BarChartData.Bar
 import com.github.tehras.charts.bar.renderer.yaxis.SimpleYAxisDrawer
-import com.chirayu.financeapp.models.Expense
-import com.chirayu.financeapp.models.Recurrence
-import com.chirayu.financeapp.models.groupedByDayOfWeek
-import com.chirayu.financeapp.ui.theme.LabelSecondary
+import com.chirayu.financeapp.domain.models.Expense
+import com.chirayu.financeapp.domain.models.Recurrence
+import com.chirayu.financeapp.domain.models.groupedByDayOfWeek
+import com.chirayu.financeapp.presentation.ui.theme.LabelSecondary
 import com.chirayu.financeapp.utils.simplifyNumber
 import java.time.DayOfWeek
 

@@ -3,8 +3,8 @@ package com.chirayu.financeapp.viewmodels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.chirayu.financeapp.db
-import com.chirayu.financeapp.models.Expense
-import com.chirayu.financeapp.models.Recurrence
+import com.chirayu.financeapp.domain.models.Expense
+import com.chirayu.financeapp.domain.models.Recurrence
 import com.chirayu.financeapp.utils.calculateDateRange
 import io.realm.kotlin.ext.query
 import kotlinx.coroutines.Dispatchers
@@ -15,9 +15,9 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 data class ExpensesState(
-  val recurrence: Recurrence = Recurrence.Daily,
-  val sumTotal: Double = 1250.98,
-  val expenses: List<Expense> = listOf()
+    val recurrence: Recurrence = Recurrence.Daily,
+    val sumTotal: Double = 1250.98,
+    val expenses: List<Expense> = listOf()
 )
 
 class ExpensesViewModel: ViewModel() {

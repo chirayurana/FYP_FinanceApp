@@ -5,9 +5,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.chirayu.financeapp.models.Expense
-import com.chirayu.financeapp.ui.theme.LabelSecondary
-import com.chirayu.financeapp.ui.theme.Typography
+import com.chirayu.financeapp.domain.models.Expense
+import com.chirayu.financeapp.presentation.ui.theme.LabelSecondary
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 import java.text.DecimalFormat
 import java.time.format.DateTimeFormatter
 

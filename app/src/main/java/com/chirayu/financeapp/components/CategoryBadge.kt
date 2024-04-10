@@ -6,9 +6,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.chirayu.financeapp.models.Category
-import com.chirayu.financeapp.ui.theme.Shapes
-import com.chirayu.financeapp.ui.theme.Typography
+import com.chirayu.financeapp.domain.models.Category
+import com.chirayu.financeapp.presentation.ui.theme.Shapes
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 
 @Composable
 fun CategoryBadge(category: Category, modifier: Modifier = Modifier) {

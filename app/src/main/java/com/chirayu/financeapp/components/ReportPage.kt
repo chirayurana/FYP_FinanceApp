@@ -14,9 +14,9 @@ import com.chirayu.financeapp.components.charts.MonthlyChart
 import com.chirayu.financeapp.components.charts.WeeklyChart
 import com.chirayu.financeapp.components.charts.YearlyChart
 import com.chirayu.financeapp.components.expensesList.ExpensesList
-import com.chirayu.financeapp.models.Recurrence
-import com.chirayu.financeapp.ui.theme.LabelSecondary
-import com.chirayu.financeapp.ui.theme.Typography
+import com.chirayu.financeapp.domain.models.Recurrence
+import com.chirayu.financeapp.presentation.ui.theme.LabelSecondary
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 import com.chirayu.financeapp.utils.formatDayForRange
 import com.chirayu.financeapp.viewmodels.ReportPageViewModel
 import com.chirayu.financeapp.viewmodels.viewModelFactory
@@ -25,10 +25,10 @@ import java.time.LocalDate
 
 @Composable
 fun ReportPage(
-  innerPadding: PaddingValues,
-  page: Int,
-  recurrence: Recurrence,
-  vm: ReportPageViewModel = viewModel(
+    innerPadding: PaddingValues,
+    page: Int,
+    recurrence: Recurrence,
+    vm: ReportPageViewModel = viewModel(
     key = "$page-${recurrence.name}",
     factory = viewModelFactory {
       ReportPageViewModel(page, recurrence)

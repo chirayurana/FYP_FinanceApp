@@ -1,15 +1,15 @@
 package com.chirayu.financeapp.viewmodels
 
 import androidx.lifecycle.ViewModel
-import com.chirayu.financeapp.models.Recurrence
+import com.chirayu.financeapp.domain.models.Recurrence
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
 data class ReportsState(
-  val recurrence: Recurrence = Recurrence.Weekly,
-  val recurrenceMenuOpened: Boolean = false
+    val recurrence: Recurrence = Recurrence.Weekly,
+    val recurrenceMenuOpened: Boolean = false
 )
 
 class ReportsViewModel: ViewModel() {

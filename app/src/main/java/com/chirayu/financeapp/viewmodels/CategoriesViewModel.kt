@@ -4,7 +4,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.chirayu.financeapp.db
-import com.chirayu.financeapp.models.Category
+import com.chirayu.financeapp.domain.models.Category
 import io.realm.kotlin.ext.query
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
@@ -74,10 +74,12 @@ class CategoriesViewModel : ViewModel() {
   fun createNewCategory() {
     viewModelScope.launch(Dispatchers.IO) {
       db.write {
-        this.copyToRealm(Category(
+        this.copyToRealm(
+            Category(
           _uiState.value.newCategoryName,
           _uiState.value.newCategoryColor
-        ))
+        )
+        )
       }
       _uiState.update { currentState ->
         currentState.copy(

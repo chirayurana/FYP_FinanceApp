@@ -1,9 +1,9 @@
 package com.chirayu.financeapp.mock
 
 import androidx.compose.ui.graphics.Color
-import com.chirayu.financeapp.models.Category
-import com.chirayu.financeapp.models.Expense
-import com.chirayu.financeapp.models.Recurrence
+import com.chirayu.financeapp.domain.models.Category
+import com.chirayu.financeapp.domain.models.Expense
+import com.chirayu.financeapp.domain.models.Recurrence
 import io.github.serpro69.kfaker.Faker
 import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit

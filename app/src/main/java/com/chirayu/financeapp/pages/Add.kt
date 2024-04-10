@@ -23,7 +23,13 @@ import androidx.navigation.compose.rememberNavController
 import com.marosseleng.compose.material3.datetimepickers.date.ui.dialog.DatePickerDialog
 import com.chirayu.financeapp.components.TableRow
 import com.chirayu.financeapp.components.UnstyledTextField
-import com.chirayu.financeapp.models.Recurrence
+import com.chirayu.financeapp.domain.models.Recurrence
+import com.chirayu.financeapp.presentation.ui.theme.BackgroundElevated
+import com.chirayu.financeapp.presentation.ui.theme.DividerColor
+import com.chirayu.financeapp.presentation.ui.theme.FinanceAppTheme
+import com.chirayu.financeapp.presentation.ui.theme.Shapes
+import com.chirayu.financeapp.presentation.ui.theme.TopAppBarBackground
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 import com.chirayu.financeapp.ui.theme.*
 import com.chirayu.financeapp.viewmodels.AddViewModel
 

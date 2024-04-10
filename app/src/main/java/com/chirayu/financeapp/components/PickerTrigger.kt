@@ -14,10 +14,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.chirayu.financeapp.R
-import com.chirayu.financeapp.ui.theme.FillTertiary
-import com.chirayu.financeapp.ui.theme.FinanceAppTheme
-import com.chirayu.financeapp.ui.theme.Shapes
-import com.chirayu.financeapp.ui.theme.Typography
+import com.chirayu.financeapp.presentation.ui.theme.FillTertiary
+import com.chirayu.financeapp.presentation.ui.theme.FinanceAppTheme
+import com.chirayu.financeapp.presentation.ui.theme.Shapes
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

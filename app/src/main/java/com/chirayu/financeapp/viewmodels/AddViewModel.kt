@@ -3,9 +3,9 @@ package com.chirayu.financeapp.viewmodels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.chirayu.financeapp.db
-import com.chirayu.financeapp.models.Category
-import com.chirayu.financeapp.models.Expense
-import com.chirayu.financeapp.models.Recurrence
+import com.chirayu.financeapp.domain.models.Category
+import com.chirayu.financeapp.domain.models.Expense
+import com.chirayu.financeapp.domain.models.Recurrence
 import io.realm.kotlin.ext.query
 import io.realm.kotlin.query.RealmResults
 import kotlinx.coroutines.Dispatchers
@@ -15,12 +15,12 @@ import java.time.LocalDate
 import java.time.LocalDateTime
 
 data class AddScreenState(
-  val amount: String = "",
-  val recurrence: Recurrence = Recurrence.None,
-  val date: LocalDate = LocalDate.now(),
-  val note: String = "",
-  val category: Category? = null,
-  val categories: RealmResults<Category>? = null
+    val amount: String = "",
+    val recurrence: Recurrence = Recurrence.None,
+    val date: LocalDate = LocalDate.now(),
+    val note: String = "",
+    val category: Category? = null,
+    val categories: RealmResults<Category>? = null
 )
 
 class AddViewModel : ViewModel() {

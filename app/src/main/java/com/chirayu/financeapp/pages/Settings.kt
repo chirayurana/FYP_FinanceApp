@@ -13,12 +13,12 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.chirayu.financeapp.components.TableRow
 import com.chirayu.financeapp.db
-import com.chirayu.financeapp.models.Category
-import com.chirayu.financeapp.models.Expense
-import com.chirayu.financeapp.ui.theme.BackgroundElevated
-import com.chirayu.financeapp.ui.theme.DividerColor
-import com.chirayu.financeapp.ui.theme.Shapes
-import com.chirayu.financeapp.ui.theme.TopAppBarBackground
+import com.chirayu.financeapp.domain.models.Category
+import com.chirayu.financeapp.domain.models.Expense
+import com.chirayu.financeapp.presentation.ui.theme.BackgroundElevated
+import com.chirayu.financeapp.presentation.ui.theme.DividerColor
+import com.chirayu.financeapp.presentation.ui.theme.Shapes
+import com.chirayu.financeapp.presentation.ui.theme.TopAppBarBackground
 import io.realm.kotlin.ext.query
 import kotlinx.coroutines.launch
 

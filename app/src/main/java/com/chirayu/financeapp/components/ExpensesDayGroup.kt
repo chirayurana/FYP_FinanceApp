@@ -6,18 +6,18 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.chirayu.financeapp.models.DayExpenses
-import com.chirayu.financeapp.ui.theme.LabelSecondary
-import com.chirayu.financeapp.ui.theme.Typography
+import com.chirayu.financeapp.domain.models.DayExpenses
+import com.chirayu.financeapp.presentation.ui.theme.LabelSecondary
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 import com.chirayu.financeapp.utils.formatDay
 import java.text.DecimalFormat
 import java.time.LocalDate
 
 @Composable
 fun ExpensesDayGroup(
-  date: LocalDate,
-  dayExpenses: DayExpenses,
-  modifier: Modifier = Modifier
+    date: LocalDate,
+    dayExpenses: DayExpenses,
+    modifier: Modifier = Modifier
 ) {
   Column(modifier = modifier) {
     Text(

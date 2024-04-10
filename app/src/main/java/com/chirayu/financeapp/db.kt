@@ -1,7 +1,7 @@
 package com.chirayu.financeapp
 
-import com.chirayu.financeapp.models.Category
-import com.chirayu.financeapp.models.Expense
+import com.chirayu.financeapp.domain.models.Category
+import com.chirayu.financeapp.domain.models.Expense
 import io.realm.kotlin.Realm
 import io.realm.kotlin.RealmConfiguration
 

@@ -30,6 +30,13 @@ import com.github.skydoves.colorpicker.compose.*
 import com.chirayu.financeapp.R
 import com.chirayu.financeapp.components.TableRow
 import com.chirayu.financeapp.components.UnstyledTextField
+import com.chirayu.financeapp.presentation.ui.theme.BackgroundElevated
+import com.chirayu.financeapp.presentation.ui.theme.Destructive
+import com.chirayu.financeapp.presentation.ui.theme.DividerColor
+import com.chirayu.financeapp.presentation.ui.theme.FinanceAppTheme
+import com.chirayu.financeapp.presentation.ui.theme.Shapes
+import com.chirayu.financeapp.presentation.ui.theme.TopAppBarBackground
+import com.chirayu.financeapp.presentation.ui.theme.Typography
 import com.chirayu.financeapp.ui.theme.*
 import com.chirayu.financeapp.viewmodels.CategoriesViewModel
 import me.saket.swipe.SwipeAction

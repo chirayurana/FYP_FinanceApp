@@ -21,8 +21,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.chirayu.financeapp.pages.*
-import com.chirayu.financeapp.ui.theme.FinanceAppTheme
-import com.chirayu.financeapp.ui.theme.TopAppBarBackground
+import com.chirayu.financeapp.presentation.ui.theme.FinanceAppTheme
+import com.chirayu.financeapp.presentation.ui.theme.TopAppBarBackground
 import io.sentry.compose.withSentryObservableEffect
 
 
